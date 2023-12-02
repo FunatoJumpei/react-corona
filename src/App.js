@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>  {/*App.cssとの連携は削除*/}
       <TopPage/>
     </div>
   );
