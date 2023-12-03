@@ -31,7 +31,7 @@ function App() {
   return (
     <div>  {/*App.cssとの連携は削除*/}
       {console.log(countryData)}
-      <TopPage countriesJson={countriesJson} setCountry={setCountry} getCountryData={getCountryData}/>
+      <TopPage countriesJson={countriesJson} setCountry={setCountry} getCountryData={getCountryData} countryData={countryData}/>
     </div>
   );
 }

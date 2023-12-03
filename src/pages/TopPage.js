@@ -12,7 +12,7 @@ const TopPage = (props) => {
              コンポーネントのタグの場合は大文字で始める。←これでReactがHTMLタグでなくコンポーネントタグであることを理解する。
             */}
             <Selector countriesJson={props.countriesJson} setCountry={props.setCountry} getCountryData={props.getCountryData}/>
-            <Result/>
+            <Result countryData={props.countryData}/>
         </div>
     );
 };
